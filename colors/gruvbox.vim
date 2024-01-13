@@ -101,7 +101,7 @@ let s:gb.gray_244    = ['#928374', 244]     " 146-131-116
 let s:gb.light0_hard = ['#f9f5d7', 230]     " 249-245-215
 let s:gb.light0      = ['#f9f5d7', 255]     " 253-244-193
 let s:gb.light0_soft = ['#f2e5bc', 228]     " 242-229-188
-let s:gb.light1      = ['#f9f5d7', 223]     " 235-219-178
+let s:gb.light1      = ['#f9f5d7', 255]     " 235-219-178
 let s:gb.light2      = ['#d5c4a1', 250]     " 213-196-161
 let s:gb.light3      = ['#bdae93', 248]     " 189-174-147
 let s:gb.light4      = ['#a89984', 246]     " 168-153-132
@@ -183,10 +183,10 @@ if s:is_dark
   let s:gray = s:gb.gray_245
 
   let s:fg0 = s:gb.light0
-  let s:fg1 = s:gb.light1
-  let s:fg2 = s:gb.light2
-  let s:fg3 = s:gb.light3
-  let s:fg4 = s:gb.light4
+  let s:fg1 = s:gb.light0
+  let s:fg2 = s:gb.light0
+  let s:fg3 = s:gb.light0
+  let s:fg4 = s:gb.light0
 
   let s:fg4_256 = s:gb.light4_256
 
